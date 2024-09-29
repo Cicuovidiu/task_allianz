@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "john.doe@allian.de",
+        "company": "Allianz Technology",
+        "is_external": true
+    },
+    {
+        "id": 1,
+        "firstname": "Claudia",
+        "lastname": "Schmidt",
+        "email": "claudia.schmidt@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": false
+    },
+    {
+        "id": 2,
+        "firstname": "Tick",
+        "lastname": "Tock",
+        "email": "external_tock.tick@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": true
+    },
+    {
+        "id": 3,
+        "firstname": "Howard",
+        "lastname": "Mushroom",
+        "email": "external_mushroom.howard@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": true
+    },
+    {
+        "id": 4,
+        "firstname": "Hopethis",
+        "lastname": "Works",
+        "email": "hopethis.works@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": false
+    },
+    {
+        "id": 5,
+        "firstname": "Hopethis",
+        "lastname": "Works",
+        "email": "hopethis.works@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": false
+    },
+    {
+        "id": 6,
+        "firstname": "Hopethis",
+        "lastname": "Works",
+        "email": "external_works.hopethis@wps-allianz.de",
+        "company": "Allianz SE",
+        "is_external": true
+    }
+]
