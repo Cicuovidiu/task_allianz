@@ -21,7 +21,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
 
     - name: Task 1 list null emails
       run: python ./task1/task.py
@@ -29,5 +28,5 @@ jobs:
     - name: Task 2 list and update users regarding internal/external mails
       run: python ./task2/task.py
 
-    # - name: Task 3
-    #   run: python ./task3/task.py
+    - name: Task 3 update and output error for same users in org
+      run: python ./task3/task.py
