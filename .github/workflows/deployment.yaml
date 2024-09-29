@@ -23,5 +23,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run script
-      run: python task1.py
+    - name: Task 1 list null emails
+      run: python ./task1/task.py
+
+    - name: Task 2 list and update users regarding internal/external mails
+      run: python ./task2/task.py
+
+    # - name: Task 3
+    #   run: python ./task3/task.py
