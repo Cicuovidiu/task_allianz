@@ -1,7 +1,9 @@
 name: Tasks users ci/cd
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
 
 jobs:
   check_users:
