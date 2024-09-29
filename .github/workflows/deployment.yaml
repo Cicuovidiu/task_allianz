@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
     - name: Task 1 list null emails
       run: python ./task1/task.py
